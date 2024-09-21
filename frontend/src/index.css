@@ -5,3 +5,7 @@
 .hero-bg {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("hero.png");
 }
+
+.button-bg {
+  background: linear-gradient(90deg, rgba(71, 36, 101, 1) 0%, rgba(22, 29, 82, 1) 100%);
+}
