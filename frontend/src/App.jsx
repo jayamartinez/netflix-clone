@@ -10,7 +10,7 @@ function App() {
   const { user, isCheckingAuth, authCheck } = useAuthStore();
   useEffect(() => {
     authCheck();
-  }, []);
+  }, [authCheck]);
 
   if(isCheckingAuth) {
     return (
@@ -21,8 +21,6 @@ function App() {
       </div>
     )
   }
-
-  console.log(user, isCheckingAuth);
   
   return (
     
